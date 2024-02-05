@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Info</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preload" href="./images/bg3.gif" as="image" />
+    <link rel="icon" type="image/png" sizes="300x250" href="./images/vk.jpg">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      VANTA.BIRDS({
+        el: "#vanta",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: true,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        backgroundAlpha: 0.0,
+        color2: 0xff00f0,
+        wingSpan: 40.00,
+        separation: 100.00,
+        alignment: 77.00,
+        cohesion: 5.00,
+        quantity: 1.00
+      })
+
+      setTimeout(() => {
+        const main = document.querySelector('main')
+        main.style.opacity = 1
+        main.style.filter = 'blur(0px)'
+      }, 600)
+    })
+    </script>
+  </head>
+  <body>
+    <main class="animated">
+      <header>
+        <ul>
+          <img src="./images/vk.jpg" />
+        <h3>@ReakZz</h3>
+          <a>
+            <p2>Real Name: Vireak</p2>
+          </a>
+        
+          
+        </ul>
+      </header>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/vkzboi">
+            <img src="./images/facebook.svg" alt="Facebook" width="25" />
+            <h4 style="color:#b2bbbd;">FB Profile</h4>
+          </a>
+        </li>
+        <li>
+          <a href="https://discord.gg/AEWbMKDgQ6">
+            <img src="./images/discord.png" alt="Disocrd" width="25" />
+            <h4 style="color:#b2bbbd;">Discord</h4>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/@virak.vk">
+            <img src="./images/tiktok.svg" alt="Tiktok" width="40" />
+            <h4 style="color:#b2bbbd;">TikTok</h4>
+          </a>
+        </li>
+          <li>
+            <a href="./vkgameid.html">
+              <img src="https://th.bing.com/th/id/R.b4ad3845d4788be23a14e30499189e72?rik=Y2Z5yFK8XCAWUA&riu=http%3a%2f%2fdesignlooter.com%2fimages%2fgame-svg-7.png&ehk=NJqY8tx6dVYCAIxJyPRr%2bsQXnLLaKpZZkk45WaIu3dU%3d&risl=&pid=ImgRaw&r=0" alt="GameID" width="25" />
+              <h4 style="color:#b2bbbd;">Game</h4>
+            </a>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
